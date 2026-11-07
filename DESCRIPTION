@@ -1,0 +1,13 @@
+Package: Numetron
+Title: Numerical integration Methods
+Version: 0.0.0.9000
+Authors@R: 
+    person("Christian", "BEKONO", , "bekono.1christian@gmail.com", role = c("aut", "cre"))
+Description: Provides numerical integration methods for approximating definite integrals. Includes composite numerical quadrature techniques such as the rectangle, midpoint, trapezoidal,Simpson's, and Gaussian quadrature methods. Designed for scientific computing, applied mathematics, and engineering applications.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
